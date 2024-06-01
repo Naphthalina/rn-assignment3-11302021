@@ -21,28 +21,28 @@ const styles = StyleSheet.create({
     display:'flex',
     flexDirection:'row',
     columnGap:20,
-    backgroundColor: 'red',
+   // backgroundColor: 'red',
     marginTop:50,
     marginLeft:20,
     marginRight:20,
    // height:90,
-    backgroundColor:'red'
+   // backgroundColor:'red'
     
   },
   left:{
     flex:3,
     display:'flex',
-    backgroundColor:'white',
+  //  backgroundColor:'white',
    // flexDirection:'column',
   },
   topText:{
-    backgroundColor:'yellow',
+   // backgroundColor:'yellow',
     fontSize:32,
     fontStyle:'bold'
   },
   bottomText:{
     fontSize:12, 
-    backgroundColor:'green',
+   // backgroundColor:'green',
   },
   right:{
     flex:1,

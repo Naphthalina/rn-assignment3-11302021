@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View,ScrollView } from 'react-native';
+import { StyleSheet, Text, View,ScrollView,Image} from 'react-native';
 import Greeting from './components/Greeting';
 import SearchBar from './components/SearchBar';
 import Categories from './components/Categories';
@@ -15,7 +15,7 @@ export default function App() {
         <SearchBar  />
         </View>
       <View style={styles.settings}>
-
+      <Image style={styles.settingsImage} source={require('./images/settings.jpeg')}  />
       </View>
       </View>
       <Categories />
@@ -29,18 +29,28 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'red',
+    backgroundColor: '#f7f0e8',
     
   },
   searchContainer:{
     display:'flex',
     flexDirection:'row',
-    columnGap:20,
+    columnGap:15,
   }
   ,search:{
-    flex:3
+    flex:4
   },
   settings:{
-    flex:1
+    flex:1,
+    borderRadius:10
   },
+  settingsImage:{
+    resizeMode:'contain',
+    height:50,
+    marginTop:30,
+    borderRadius:10,
+    marginLeft: -30
+   // marginRight:1
+    
+  }
 });
