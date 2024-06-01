@@ -118,7 +118,8 @@ const styles = StyleSheet.create({
     padding: 16,
     height: 128,
     alignContent:'center',
-   // alignItems:'center'
+   borderColor: '#E8D1BA', 
+   borderWidth: 1, 
   },
   cardTitle: {
     fontSize: 16,

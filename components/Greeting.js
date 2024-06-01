@@ -4,7 +4,7 @@ export default function Greeting() {
   return (
     <View style={styles.container}>
       <View style={styles.left}>
-      <Text style={styles.topText}>Hello , Devs</Text>
+      <Text style={styles.topText}>Hello, Devs</Text>
       <Text style={styles.bottomText}>14 tasks today</Text>
       </View>
       

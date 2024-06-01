@@ -30,12 +30,12 @@ const categories = [
     id: '5',
     title: 'Hobbies',
     description: '12 Tasks',
-    image: require('../images/study.png'),
+    image: require('../images/code.png'),
   },
   {
     id: '6',
     title: 'Research',
-    description: 'Ok',
+    description: '12 Tasks ',
     image: require('../images/study.png'),
   },
   {
@@ -53,8 +53,8 @@ const categories = [
   {
     id: '9',
     title: 'Games',
-    description: 'Ok',
-    image: require('../images/study.png'),
+    description: '12 Tasks',
+    image: require('../images/code.png'),
   },
 ];
 
