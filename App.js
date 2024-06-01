@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View,ScrollView } from 'react-native';
 import Greeting from './components/Greeting';
 import SearchBar from './components/SearchBar';
 import Categories from './components/Categories';
+import OngoingTask from './components/OngoingTask';
 
 export default function App() {
   return (
+    <ScrollView>
     <View style={styles.container}>
       <Greeting />
       <View style={styles.searchContainer}>
@@ -17,8 +19,10 @@ export default function App() {
       </View>
       </View>
       <Categories />
+      <OngoingTask />
       <StatusBar style="auto" />
     </View>
+    </ScrollView>
   );
 }
 
