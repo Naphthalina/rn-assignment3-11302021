@@ -24,37 +24,37 @@ const categories = [
     id: '4',
     title: 'Cooking',
     description: '12 Tasks',
-    image: require('../images/exercise.png'),
+    image: require('../images/Cook.png'),
   },
   {
     id: '5',
     title: 'Hobbies',
     description: '12 Tasks',
-    image: require('../images/code.png'),
+    image: require('../images/hobbies.png'),
   },
   {
     id: '6',
     title: 'Research',
     description: '12 Tasks ',
-    image: require('../images/study.png'),
+    image: require('../images/research.png'),
   },
   {
     id: '7',
     title: 'Projects',
     description: '12 Tasks',
-    image: require('../images/exercise.png'),
+    image: require('../images/projects.png'),
   },
   {
     id: '8',
     title: 'Network',
     description: '12 Tasks',
-    image: require('../images/study.png'),
+    image: require('../images/network.png'),
   },
   {
     id: '9',
     title: 'Games',
     description: '12 Tasks',
-    image: require('../images/code.png'),
+    image: require('../images/games.png'),
   },
 ];
 
